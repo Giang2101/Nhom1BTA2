@@ -1,3 +1,4 @@
+
 void sapxep(Hopdonglaodong a[], int n){
 	for(int i = 0; i < n - 1; i++){
 		for(int j = i + 1; j < n; j++){			
@@ -16,3 +17,5 @@ void sapxep(Hopdonglaodong a[], int n){
 		}
 	}
 }
+=======
+# Nhom 1 chu de 15
