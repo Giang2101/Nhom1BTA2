@@ -1,4 +1,5 @@
 # Nh-m-1---B-i-t-p-A2
+` ` ` 
 void xoa(Hopdonglaodong a[], int &n, int k){
     do {
         cout << endl;
@@ -16,3 +17,4 @@ void xoa(Hopdonglaodong a[], int &n, int k){
     }
     n--;
 }
+` ` ` 
