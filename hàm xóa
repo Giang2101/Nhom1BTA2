@@ -1,0 +1,17 @@
+void xoa(Hopdonglaodong a[], int &n, int k){
+    do {
+        cout << endl;
+        cout << "Nhap vi tri muon xoa tu 1-" << n << ": "; 
+        cin >> k;
+        if (k < 1 || k > n) { 
+            cout << "Vi tri khong hop le! Vui long nhap lai.\n";
+        }
+    } while (k < 1 || k > n); 
+
+    k--; 
+
+    for(int i=k; i<n-1; i++){
+        a[i]=a[i+1];
+    }
+    n--;
+}
