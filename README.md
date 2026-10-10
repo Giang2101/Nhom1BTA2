@@ -43,6 +43,7 @@ void xoa(Hopdonglaodong a[], int &n, int k){
 }
 ```
 =======
+=======
 
 void sapxep(Hopdonglaodong a[], int n){
 	for(int i = 0; i < n - 1; i++){
